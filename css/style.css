@@ -1,0 +1,257 @@
+/*  Estilos Gerais  */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+/* Header */
+.header {
+  
+  min-height: 500px;
+  height: 46vw;
+  width: 100%;
+  background: url(../img/bg-intro3.png) no-repeat;
+  background-size: cover;
+  
+}
+.header_menu{
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 10;
+  background: black;
+}
+.header_menu ul li{
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.header_menu ul li a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.header_menu ul li a:hover {
+  color: #F1AF9D;
+}
+
+.titulo{
+  font-size: 92px;
+  margin-top: 92px;
+  padding-top: 100px;
+  text-align: center;
+  color: white;
+}
+.subtitulo{
+  text-align: center;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  padding: 10px 0;
+  color: white;
+}
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 500px;
+  height: 1px;
+  background: white;
+  margin: 15px auto 10px auto;
+}
+.banner a{
+  display: inline-block;
+}
+
+.social-intro {
+  padding-left: 430px;
+}
+
+.esse{
+  margin-left: 20px;
+}
+/* Sobre */
+.sobre{
+  width: 100%;
+  background: #434343;
+  padding: 40px 0;
+}
+.titulo-sobre{
+  color: white;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.09em;
+}
+.sobre-intro p {
+  padding: 20px 0;
+  color: rgb(122, 122, 122);
+  max-width: 800px;
+}
+
+.cv{
+  color: white;
+  font-weight: bold;
+}
+.sobre-intro p span{
+ color: white;
+ font-weight: bold;
+}
+.sobre-intro a {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* experiencia */
+.experiencia{
+  padding: 60px 0;
+}
+.h1-exp{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  color: black;
+  text-transform: uppercase;
+}
+.h1-exp:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #1F4068;
+  margin: 3px;
+}
+.h1-exp-skill{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  color: black;
+  text-transform: uppercase;
+}
+.h1-exp-skill:after {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 3px;
+  background: #1F4068;
+  margin: 3px;
+}
+
+.h1-sobre-exp{
+ font-size: 18px;
+ line-height: 25px;
+ font-weight: bold; 
+}
+.sobre-exp{
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0 20px 0;
+  color: black;
+}
+.separador{
+  margin: auto;
+  padding: 40px 0 40px 0;
+}
+.habilidades p {
+  padding: 10px 0;
+  color: #7A7A7A;
+}
+.habilidades img{
+  display: inline-block;
+  margin: 20px 20px 20px 0;
+}
+
+/* Portifolio */
+
+.portifolio {
+  width: 100%;
+  background: #434343;
+}
+.portifolio img {
+  margin-bottom: 30px;
+}
+.h1-port{
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  padding-top: 30px;
+  text-transform: uppercase;
+  color: white;
+}
+.h1-port:after{
+  content: "";
+  display: block;
+  width: 100px;
+  height: 1px;
+  background: white;
+  margin: 5px auto 60px auto;
+}
+/* Footer */
+
+.footer{
+  border-top: 2px solid #707070;
+  width: 100%;
+  background: #434343;
+}
+.footer p:nth-of-type(1) {
+  padding-top: 20px ;
+  text-align: center;
+  color: white;
+}
+.footer p:nth-of-type(2) {
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+}
+.social img{
+  padding-top: 20px;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+
+/* 6 Adicione o CSS Essêncial abaixo */
+[data-anime] {
+  opacity: 0;
+}
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: transform .8s, opacity .8s;
+}
+
+/* 7 CSS personalizado dependendo da animação desejada */
+.fadeInDown {
+  transform: translate3d(0,-20px,0);
+}
+.fadeInUp {
+  transform: translate3d(0,20px,0);
+}
+.fadeInRight {
+  transform: translate3d(20px,0,0);
+}
+.fadeInLeft {
+  transform: translate3d(-20px,0,0);
+}
+.animacao{
+  opacity: 0;
+  transform: translate3d(-100px, 0, 0);
+  transition: .3s;
+}
+.anime-start{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}

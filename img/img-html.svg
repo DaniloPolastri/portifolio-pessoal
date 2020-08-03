@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_1" data-name="Retângulo 1" width="40" height="40" transform="translate(470 1528)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="img-html" transform="translate(-470 -1528)" clip-path="url(#clip-path)">
+    <path id="html5" d="M2.5,0h35L34.317,35.938,19.962,40,5.688,35.937ZM14.218,16.25l-.387-4.53,16.765,0,.383-4.37L9.02,7.35,10.183,20.7h15.21l-.543,5.71L20,27.75,15.075,26.4l-.313-3.517H10.413l.55,6.952L20,32.252l8.965-2.4,1.24-13.595Z" transform="translate(470 1528)" fill="#e34f26"/>
+  </g>
+</svg>

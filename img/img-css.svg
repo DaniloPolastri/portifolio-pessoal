@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_18" data-name="Retângulo 18" width="40" height="40" transform="translate(650 1528)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="img-css" transform="translate(-650 -1528)" clip-path="url(#clip-path)">
+    <path id="css3" d="M2.5,0h35L34.317,35.938,19.962,40,5.687,35.937ZM30.983,7.355,9.017,7.35l.355,4.37,16.875,0-.425,4.527H14.755l.4,4.288h10.3l-.61,5.872L20,27.75,15.072,26.4l-.313-3.517h-4.35l.483,6.425L20,32.147l8.955-2.55Z" transform="translate(650 1528)" fill="#1572b6"/>
+  </g>
+</svg>
